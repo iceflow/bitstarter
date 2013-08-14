@@ -1,0 +1,5 @@
+git checkout staging
+git merge develop
+git push origin staging
+echo "git push origin staging -- Done"
+git push staging-heroku staging:master
